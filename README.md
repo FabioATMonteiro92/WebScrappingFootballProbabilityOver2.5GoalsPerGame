@@ -1,4 +1,4 @@
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FabioATMonteiro92/DataCleaning-Processing/HEAD?labpath=notebook%2F01_data_processing_script.ipynb)
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FabioATMonteiro92/WebScrappingFootballProbabilityMinus2.5GoalsPerGame/HEAD?labpath=OVG_v2_Minus2_5Goals.ipynb)
 
 # Web Scraping & Probabilistic Modeling of Under 2.5 Goals in Football Matches
 
