@@ -1,4 +1,4 @@
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FabioATMonteiro92/WebScrappingFootballProbabilityOver2.5GoalsPerGame/HEAD?filepath=OVG_v2_Over2_5Goals.ipynb)
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](.../v2/gh/FabioATMonteiro92/WebScrappingFootballProbabilityMinus2.5GoalsPerGame/HEAD?urlpath=lab)
 
 # Web Scraping & Probabilistic Modeling of Over 2.5 Goals in Football Matches
 
@@ -7,6 +7,8 @@ This project implements a large-scale, fully automated Python pipeline that scra
 The script extracts historical results, upcoming fixtures, team scoring profiles, over/under performance metrics, expected goals distributions, and builds combined probability estimates based on home/away tendencies and statistical variance.
 
 All processed information is exported into Excel files with multiple sheets (raw data + enriched data + treated data ready for decision-making).
+
+https://mybinder.org/v2/gh/FabioATMonteiro92/WebScrappingFootballProbabilityOver2.5GoalsPerGame/HEAD?filepath=OVG_v2_Over2_5Goals.ipynb
 
 # What is produced by the script
 
