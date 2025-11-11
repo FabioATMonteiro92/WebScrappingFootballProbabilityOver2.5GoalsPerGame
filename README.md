@@ -1,8 +1,8 @@
 [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FabioATMonteiro92/WebScrappingFootballProbabilityMinus2.5GoalsPerGame/HEAD?labpath=OVG_v2_Minus2_5Goals.ipynb)
 
-# Web Scraping & Probabilistic Modeling of Under 2.5 Goals in Football Matches
+# Web Scraping & Probabilistic Modeling of Over 2.5 Goals in Football Matches
 
-This project implements a large-scale, fully automated Python pipeline that scrapes football match statistics from SoccerStats.com across 60+ leagues worldwide, processes the data, and computes a rich set of probability indicators for matches finishing with under 2.5 goals.
+This project implements a large-scale, fully automated Python pipeline that scrapes football match statistics from SoccerStats.com across 60+ leagues worldwide, processes the data, and computes a rich set of probability indicators for matches finishing with over 2.5 goals.
 
 The script extracts historical results, upcoming fixtures, team scoring profiles, over/under performance metrics, expected goals distributions, and builds combined probability estimates based on home/away tendencies and statistical variance.
 
@@ -32,7 +32,7 @@ For demonstration, we include an anonymized subset (*n* = 4). The pipeline:
 
 •	Once Binder is launched, execute cells by pressing **Ctrl/Cmd + Enter**.
 
-•	Locally: download the .py script “OVG\_2.0\_Minus2.5Goals.py” and run with a local Python 3 environment. 
+•	Locally: download the .py script “OVG\_2.0\_Over2.5Goals.py” and run with a local Python 3 environment. 
 
 *Note:* Binder may take some time to launch the notebook on the first load, as it needs to build the execution environment. Please be patient. If the session hangs for too long, simply close the tab and relaunch Binder.
 
