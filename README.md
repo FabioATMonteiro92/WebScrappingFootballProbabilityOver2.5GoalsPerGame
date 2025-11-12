@@ -1,16 +1,16 @@
 [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FabioATMonteiro92/WebScrappingFootballProbabilityOver2.5GoalsPerGame/HEAD?urlpath=lab/tree/OVG_v2_Over2_5Goals.ipynb)
 
-# ⚽ Web Scraping & Probabilistic Modeling of Over 2.5 Goals in Football Matches
+# Web Scraping & Probabilistic Modeling of Over 2.5 Goals in Football Matches
 
 ---
 
-## 🧩 Presentation
+## Presentation
 This repository contains a fully automated Python pipeline that scrapes league tables, recent results, and upcoming fixtures from **SoccerStats.com** for 60+ leagues, then processes and enriches the data to estimate the likelihood of matches finishing with **Over 2.5 goals**.  
 The output is delivered as Excel workbooks (full data and treated data) designed for quick filtering, ranking, and decision support.
 
 ---
 
-## 🚀 What this project does
+## What this project does
 - Scrapes over/under tables (Total, Last 8, Home, Away) and parses results/fixtures per league.  
 - Builds team-level profiles of goals scored and conceded:
   - overall, last 8, home, and away  
@@ -25,7 +25,7 @@ The output is delivered as Excel workbooks (full data and treated data) designed
 
 ---
 
-## 🌍 Data sources
+## Data sources
 **SoccerStats.com**
 - League O/U tables: `table.asp?league=...&tid=c`  
 - Results & fixtures: `results.asp?league=...&pmtype=bydate`  
@@ -36,7 +36,7 @@ Coverage: 60+ leagues across **Europe**, **the Americas**, and **Asia** (D1/D2/D
 
 ---
 
-## 📦 What is produced
+## What is produced
 The pipeline creates two Excel workbooks:
 
 ### 1️⃣ Full Data
@@ -57,7 +57,7 @@ The pipeline creates two Excel workbooks:
 
 ---
 
-## ⚙️ How it works (pipeline overview)
+## How it works (pipeline overview)
 ### 🔹 League setup
 Two URL lists per league:
 - O/U tables (Total, Last 8, Home, Away)  
@@ -83,7 +83,7 @@ Two URL lists per league:
 
 ---
 
-## 🗂️ Repository contents (key files/folders)
+## Repository contents (key files/folders)
 
 - **`OVG_2.0_Over2.5Goals.py`** — main pipeline script  
 - **`FullData/`** — exported full workbooks *(created at runtime)*  
