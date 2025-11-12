@@ -19,7 +19,7 @@ The output is delivered as Excel workbooks (full data and treated data) designed
   - all fixtures played so far, last 8 matches, home games, and away games.  
   - mean and standard deviation (goals scored (GS)/goals conceded (GC)).
 - Derives match probabilities for games finishing with over 2.5 goals using:
-  - low average bounds based on the previous number of games that finished over 2.5 goals.  
+  - low and average bounds based on the previous number of games that finished over 2.5 goals.  
   - home/away over 2.5 goals tendencies.  
   - GS/GC means and SDs combined (worst- and best-case expectations).  
 - Ranks upcoming matches using a multi-criteria sort (low-bound prob, average home/away prob, sums of GS/GC means & SDs, games played).  
