@@ -5,7 +5,7 @@
 ---
 
 ## Presentation
-This repository contains a fully automated Python pipeline that scrapes league tables, recent results, and upcoming fixtures from **SoccerStats.com** for 60+ leagues from different continents and divisions (e.g.,D1, D2, and D3 where applicable). THe script also processes the data, and computes a set of probability indicators for matches finishing with **over 2.5 goals**.
+This repository contains a fully automated Python pipeline that scrapes league tables, recent results, and upcoming fixtures from **SoccerStats.com** for 60+ leagues from different continents and divisions (e.g., D1, D2, and D3 where applicable). THe script also processes the data, and computes a set of probability indicators for matches finishing with **over 2.5 goals**.
 
 The script extracts historical results, upcoming fixtures, team scoring profiles, and builds combined probability estimates based on home/away tendencies and statistical variance.  
 
