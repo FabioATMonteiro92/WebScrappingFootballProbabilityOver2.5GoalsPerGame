@@ -2,7 +2,7 @@
 
 # Web Scraping & Probabilistic Modeling of Over 2.5 Goals in Football Matches
 
-This project implements a large-scale, fully automated Python pipeline that scrapes football match statistics from SoccerStats.com across 60+ leagues worldwide, processes the data, and computes a rich set of probability indicators for matches finishing with over 2.5 goals.
+This project implements a large-scale, fully automated Python pipeline that scrapes football match statistics from SoccerStats.com across 60+ leagues worldwide, processes the data, and computes a set of probability indicators for matches finishing with over 2.5 goals.
 
 The script extracts historical results, upcoming fixtures, team scoring profiles, over/under performance metrics, expected goals distributions, and builds combined probability estimates based on home/away tendencies and statistical variance.
 
