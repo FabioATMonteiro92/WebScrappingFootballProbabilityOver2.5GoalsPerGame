@@ -34,8 +34,7 @@ The pipeline creates two Excel workbooks:
 **Filename:** `FullDatabase+2.5Goals_<DD-MM-YYYY>.xlsx`  
 **Sheets:**
 - `OverUnderGoalsTotalFullTime`:
-
-  – league information
+  - league information
   - games played (GP)
   - information about next match
   - low and high bound probability of the games finishing with +2.5 goals (based on the proportion of previous home and away matches that each team’s games ended with over 2.5 goals)
